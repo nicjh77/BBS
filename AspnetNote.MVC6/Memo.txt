@@ -1,0 +1,11 @@
+﻿User: UserNo(pk), UserName, UserId, UserPassword
+Note: NoteNo(pk), NoteTitle, NoteContents, UserNo(fk)
+
+Log in methods
+ - session: store information on memory of web server. web server memory pressed
+ - cookie: after logged in through webserver, broswer has user information. Security issue. more popular
+
+ IIS(Web server) == apache
+  - Web API compressed
+
+Because of ASP.NET CORE using linux, windows, and MacOs, IIS is managed in middleware
